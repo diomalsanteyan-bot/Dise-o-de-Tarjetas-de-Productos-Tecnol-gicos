@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.Tarjeta {
+    background-color: rgb(251, 255, 255);
+    border: 2px solid #2dd4b2;
+    border-radius: 24px;
+    padding: 15px;
+    margin: 24px;
+    box-sizing: border-box;
+}
+
+.Tarjeta h1 {
+    text-align: center;
+}
+
+.Catalogo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.Producto {
+    background-color: #2dd4b2;
+    border-radius: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+.Producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.Producto button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Producto button:hover {
+    background-color: #d9fff5;
+}
+
